@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="first_questio">I .... tennis every Sunday morning.</string>
+    <string name="playing">Playing</string>
+    <string name="play">Play</string>
+    <string name="am_playing">Am Playing</string>
+    <string name="am_play">Am Play</string>
+    <string name="second_question">Do not make so much noise.Noriko .... to study for her ESL test!</string>
+    <string name="try_">Try</string>
+    <string name="tries">Tries</string>
+    <string name="tried">Tried</string>
+    <string name="is_trying">Is Trying</string>
+    <string name="third_question">Select the past verbs</string>
+    <string name="danced">Danced</string>
+    <string name="today">Today</string>
+    <string name="could_bark">Could Bark</string>
+    <string name="no_verb">No Verb</string>
+    <string name="fourth_question">Select the greeting words</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="where_are_you">Where are you?</string>
+    <string name="hello">Hello</string>
+    <string name="good_bye">Good Bye</string>
+    <string name="were_her_parents_born_in_germany">Were her parents born in Germany?</string>
+    <string name="write_the_correct_answer">Write The Correct Answer</string>
+    <string name="get_result">Get Result</string>
+    <string name="reset">Reset</string>
+    <string name="score">your score is: </string>
+    <string name="no">No they were not</string>
+</resources>

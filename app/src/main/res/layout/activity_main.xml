@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.quiz.MainActivity">
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/first_questio" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_first"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/playing_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/playing" />
+
+            <RadioButton
+                android:id="@+id/play_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/play" />
+
+            <RadioButton
+                android:id="@+id/am_playing_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/am_playing" />
+
+            <RadioButton
+                android:id="@+id/am_play_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/am_play" />
+
+        </RadioGroup>
+
+        <View style="@style/ViewStyle"></View>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/second_question" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_second"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/try_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/try_" />
+
+            <RadioButton
+                android:id="@+id/tries_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/tries" />
+
+            <RadioButton
+                android:id="@+id/tried_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/tried" />
+
+            <RadioButton
+                android:id="@+id/is_trying_radio_button"
+                style="@style/RadioButtonAnswerStyle"
+                android:text="@string/is_trying" />
+
+        </RadioGroup>
+
+        <View style="@style/ViewStyle"></View>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/third_question" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/danced_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/danced" />
+
+            <CheckBox
+                android:id="@+id/today_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/today" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/could_bark_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/could_bark" />
+
+            <CheckBox
+                android:id="@+id/no_verb_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/no_verb" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewStyle"></View>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/fourth_question" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/good_morning_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/good_morning" />
+
+            <CheckBox
+                android:id="@+id/whrer_are_you_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/where_are_you" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/hello_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="Hello" />
+
+            <CheckBox
+                android:id="@+id/good_bye_check_box"
+                style="@style/CheckButtonAnswerStyle"
+                android:text="@string/good_bye" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewStyle"></View>
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/were_her_parents_born_in_germany" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_text"
+                style="@style/QuestionStyle"
+                android:hint="@string/write_the_correct_answer" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="result"
+                android:text="@string/get_result" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="reset"
+                android:text="@string/reset" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
